@@ -23,11 +23,49 @@
 
     <br />
 }
-<div class="row">
-    @foreach (var area in Model)
-    {
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .container {
+            position: relative;
+            font-family: Arial;
+        }
 
-        @Html.Partial("_ThumbnailAreaPartial1", area)
-    }
-</div>
+        .text-block {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background-color: black;
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .text-block1 {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background-color: black;
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <img src='/Content/Images/main.jpg' alt="Nature" style="width:100%; height:100%;">
+        <div class="text-block">
+            <h4><a href="/Home/ForRent">Houses For Rent</a></h4>
+
+        </div>
+        <div class="text-block1">
+            <h4><a href='/Home/ForSale'>Houses For Sale</a></h4>
+
+        </div>
+    </div>
+
+</body>
 

@@ -236,6 +236,7 @@
     <Content Include="Content\Images\7.PNG" />
     <Content Include="Content\Images\8.PNG" />
     <Content Include="Content\Images\9.PNG" />
+    <Content Include="Content\Images\main.jpg" />
     <Content Include="Content\thumbnail.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -308,6 +309,8 @@
     <Content Include="Views\HousesForRent\Edit.cshtml" />
     <Content Include="Views\HousesForRent\Index.cshtml" />
     <Content Include="Views\Shared\_ThumbnailAreaPartial1.cshtml" />
+    <Content Include="Views\Home\ForSale.cshtml" />
+    <Content Include="Views\Home\ForRent.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
